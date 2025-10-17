@@ -36,6 +36,6 @@ After completing my **AWS SAA Certification**, I deepened my knowledge in **Infr
 ## ⚙️ Deployment
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/doctor-appointment-system.git
+git clone https://github.com/abdelrhmanmohamed1234/doctor-appointment-system.git
 cd doctor-appointment-system
 
