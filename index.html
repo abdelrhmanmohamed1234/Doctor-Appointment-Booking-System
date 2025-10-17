@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Doctor Appointment Booking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Doctor Appointment Booking</h1>
+
+    <section id="create">
+      <h2>Create Booking</h2>
+      <input id="patient_name" placeholder="Patient name" />
+      <input id="date" type="date" />
+      <input id="time" type="time" />
+      <button id="createBtn">Book Appointment</button>
+    </section>
+
+    <section id="update">
+      <h2>Update Booking</h2>
+      <input id="update_booking_id" placeholder="Booking ID" />
+      <input id="update_patient_name" placeholder="New patient name" />
+      <input id="update_date" type="date" />
+      <input id="update_time" type="time" />
+      <button id="updateBtn">Update Booking</button>
+    </section>
+
+    <section id="cancel">
+      <h2>Cancel Booking</h2>
+      <input id="cancel_booking_id" placeholder="Booking ID" />
+      <button id="cancelBtn">Cancel</button>
+    </section>
+
+    <section id="list">
+      <h2>All Bookings</h2>
+      <button id="refreshBtn">Refresh</button>
+      <pre id="bookingsList"></pre>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
